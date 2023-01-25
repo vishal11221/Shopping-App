@@ -58,15 +58,6 @@ body{
 
 /* Header page  */
 
-.mystyle span{
-    color: red;
-    font-weight: 200;
- }
-
- .mystyle p{
-     color: black;
- }
-
 #header{
     display: flex;
     align-items: center;
@@ -1005,16 +996,6 @@ footer a:hover{
 /* i-pad-mini device media query  */
 
 @media (max-width: 799px){
-    
-    .mystyle span{
-        color: red;
-        font-weight: 200;
-     }
- 
-     .mystyle p{
-         color: black;
-     }
-
 
     .logo{
         margin-left: -55px;
@@ -1144,15 +1125,6 @@ footer a:hover{
 /* Mobile Device media query  */ 
 
 @media (max-width:477px){
-   
-     .mystyle span{
-        color: red;
-        font-weight: 200;
-     }
- 
-     .mystyle p{
-         color: black;
-     }
     
     .logo{
         margin-left: -65px;
@@ -1337,15 +1309,6 @@ footer a:hover{
 /* Mobile Device media query  */
 
 @media (max-width: 914px){
-    
-    .mystyle span{
-       color: red;
-       font-weight: 200;
-    }
-
-    .mystyle p{
-        color: black;
-    }
     
     .section-p1{
         padding: 20px;

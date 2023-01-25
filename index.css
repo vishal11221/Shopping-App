@@ -58,6 +58,15 @@ body{
 
 /* Header page  */
 
+.mystyle span{
+    color: red;
+    font-weight: 200;
+ }
+
+ .mystyle p{
+     color: black;
+ }
+
 #header{
     display: flex;
     align-items: center;
@@ -111,14 +120,12 @@ body{
 
 /* Home page  */
 
-#hero{
-    background-image: url("img/img8.webp");
+.carousel-item img{
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0%;
-    padding: 0 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -998,6 +1005,15 @@ footer a:hover{
 /* i-pad-mini device media query  */
 
 @media (max-width: 799px){
+    
+    .mystyle span{
+        color: red;
+        font-weight: 200;
+     }
+ 
+     .mystyle p{
+         color: black;
+     }
 
 
     .logo{
@@ -1129,6 +1145,15 @@ footer a:hover{
 
 @media (max-width:477px){
    
+     .mystyle span{
+        color: red;
+        font-weight: 200;
+     }
+ 
+     .mystyle p{
+         color: black;
+     }
+    
     .logo{
         margin-left: -65px;
     }
@@ -1312,6 +1337,16 @@ footer a:hover{
 /* Mobile Device media query  */
 
 @media (max-width: 914px){
+    
+    .mystyle span{
+       color: red;
+       font-weight: 200;
+    }
+
+    .mystyle p{
+        color: black;
+    }
+    
     .section-p1{
         padding: 20px;
     }
